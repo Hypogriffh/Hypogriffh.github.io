@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<link rel="stylesheet" href="../css/stylesheet.css">
+        <script>
+            function resizeIframe(obj) {
+              obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+            }
+          </script>
+          
+    </head>
+    <body>
+        <body>
+            
+            <div>
+                
+                <h1>Latest Posts</h1> <!--DO NOT FORGET TO LINK LATEST POSTS I BEG YOU-->
+                <ul>
+                    <li>4/8/2025 - <a href="2025-04-08-hello-world.html" class="gamelink">Hello World!</a></li>
+                </ul>
+                <br>
+
+                <h1>Featured Post</h1> <!--basically just a pinned tweet bestie-->
+                <iframe src="2025-04-08-hello-world.html" class="featured-post" onload="resizeIframe(this)"></iframe>
+
+            </div>
+        </body>
+    </body>
+</html>

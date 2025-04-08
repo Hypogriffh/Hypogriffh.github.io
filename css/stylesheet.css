@@ -62,5 +62,11 @@ a{
 	padding-right: 5px;
 }
 .gamestatus{
-	color:gray;
+	color:rgb(73, 73, 73);
+}
+.featured-post{
+	height:500px;
+	width:100%;
+	align-self: center;
+	border:none;
 }
